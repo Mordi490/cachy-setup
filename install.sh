@@ -18,7 +18,7 @@ echo -e "\n$ansi_art\n"
 if ! sudo -v; then
     echo "You need sudo privileges to run this installer"
     exit 1
-if
+fi
 
 sudo pacman -Sy --noconfirm --needed git
 
